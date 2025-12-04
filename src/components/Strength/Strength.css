@@ -1,0 +1,30 @@
+.strength-container {
+    display: flex;
+    gap: 56px;
+    padding: 14px 16px;
+    background-color: var(--grey-850);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strength-boxes {
+    display: flex;
+    gap: 8px;
+}
+
+.strength-box {
+    width: 10px;
+    height: 28px;
+    box-shadow: inset 0 0 0 2px var(--grey-200);
+}
+.box-filled{
+    box-shadow: none;
+    background-color: var(--yellow-300);
+}
+
+@media(min-width:768px) {
+    .strength-container {
+        gap: 0px;
+        padding: 22px 32px;
+    }
+}

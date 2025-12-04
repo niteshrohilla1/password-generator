@@ -1,0 +1,29 @@
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+    .btn-generate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 104px;
+        gap: 16px;
+        box-sizing: border-box;
+        border: 2px solid transparent;
+        color: var(--grey-800);
+    }
+
+    .btn-generate:hover {
+        border: 2px solid var(--green-200);
+        background-color: transparent;
+        color: var(--green-200);
+    }
+
+@media(min-width:768px) {
+    .btn-generate {
+        padding: 21px 176px;
+        gap: 24px;
+    }
+}

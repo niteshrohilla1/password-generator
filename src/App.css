@@ -1,0 +1,97 @@
+@import './components/PasswordDisplay/PasswordDisplay.css';
+@import './components/Slider/Slider.css';
+@import './components/CheckList/CheckList.css';
+@import './components/Strength/Strength.css';
+@import './components/Generate/Generate.css';
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 65px;
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+.password-conatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.rules-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--grey-800);
+    padding: 16px;
+}
+
+.rules-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+@media(min-width:768px) {
+    .main-container {
+        margin-top: 133px;
+        margin-bottom: 195px;
+    }
+
+    .password-wrapper {
+        padding: 16px 32px;
+    }
+
+    .password {
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .track {
+        width: 476px;
+    }
+
+    .rules-wrapper {
+        padding: 24px 32px;
+    }
+
+    .length-container {
+        gap: 16px;
+    }
+
+    .length-title {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .new-text-preset-2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .new-text-preset-1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .new-text-preset-3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .bottom-container {
+        gap: 32px;
+    }
+
+    .strength-container {
+        gap: 0px;
+        padding: 22px 32px;
+    }
+
+    .btn-generate {
+        padding: 21px 176px;
+        gap: 24px;
+    }
+}
