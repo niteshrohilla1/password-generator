@@ -6,7 +6,11 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.strength-wrapper{
+    display: flex;
+    gap: 16px;
+    height: 31px;
+}
 .strength-boxes {
     display: flex;
     gap: 8px;
